@@ -150,5 +150,6 @@ document.getElementById('modalClose')
     .addEventListener('click', closeModal);
 
 document.getElementById('salvar').addEventListener('click', salvarCliente )
+document.getElementById('cancelar').addEventListener('click', closeModal)
 
 document.querySelector('#tabelaCliente> tbody').addEventListener('click', editaEApaga)
